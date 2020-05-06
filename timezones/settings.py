@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 BOT_NAME = "timezones"
+LOG_LEVEL = "WARNING"
 SPIDER_MODULES = ["timezones.spiders"]
 NEWSPIDER_MODULE = "timezones.spiders"
 USER_AGENT = (
