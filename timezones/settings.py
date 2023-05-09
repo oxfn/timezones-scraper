@@ -11,3 +11,4 @@ ROBOTSTXT_OBEY = True
 ITEM_PIPELINES = {
     "timezones.pipelines.TimezonesPipeline": 100,
 }
+REQUEST_FINGERPRINTER_IMPLEMENTATION = '2.7'
